@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Lead = require('../Models/Lead');
+const Lead = require('../Models/lead');
 
 // 1. CREATE a new lead
 router.post('/', async (req, res) => {
