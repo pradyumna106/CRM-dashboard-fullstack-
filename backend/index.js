@@ -9,7 +9,6 @@ const app = express();
 // Middleware
 app.use(cors({
   origin: [
-    'http://localhost:3000', // For local development
     'https://crm-dashboard-fullstack.vercel.app' // IMPORTANT: Replace this with your actual Vercel URL later!
   ]
 }));
