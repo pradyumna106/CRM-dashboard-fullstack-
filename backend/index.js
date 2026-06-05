@@ -10,7 +10,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:3000', // For local development
-    'https://crm-dashboard-fullstack.vercel.app/' // IMPORTANT: Replace this with your actual Vercel URL later!
+    'https://crm-dashboard-fullstack.vercel.app' // IMPORTANT: Replace this with your actual Vercel URL later!
   ]
 }));
 app.use(express.json());
