@@ -7,12 +7,7 @@ const leadRoutes = require('./routes/leadRoutes');
 const app = express();
 
 // Middleware
-app.use(cors({
-  origin: [
-    'http://localhost:3000', // For local development
-    'https://your-frontend-project.vercel.app' // IMPORTANT: Replace this with your actual Vercel URL later!
-  ]
-}));
+app.use(cors());
 app.use(express.json());
 
 // Database Connection
